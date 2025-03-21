@@ -59,6 +59,10 @@ export class AuthService {
     };
   }
 
+  profileTest(): string {
+    return 'test success';
+  }
+
   async validateUser(
     email: string,
     password: string,
